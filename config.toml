@@ -1,3 +1,27 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://ns6251.github.io/'
+languageCode = 'en'
+title = 'ns6251のブログ'
+theme = "color-your-world"
+
+copyright = "Copyright © 2022, ns6251; All rights reserved."
+
+enableEmoji = true
+enableInlineShortcodes = true
+
+paginate = 3
+
+[params]
+description = "ns6251's personal website"
+author = "ns6251"
+authorDesc = "🦀❤"
+
+[params.notFound]
+title = "Page not found"
+description = "This page was not found."
+paragraph = "Nothing to see here, buddy."
+
+[params.search]
+enable = true
+maxResults = 15
+minLength = 2
+maxLength = 42
