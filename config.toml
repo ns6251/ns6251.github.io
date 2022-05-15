@@ -15,6 +15,9 @@ description = "ns6251's personal website"
 author = "ns6251"
 authorDesc = "🦀❤"
 
+[params.style]
+socialIsFlex = false
+
 [params.notFound]
 title = "Page not found"
 description = "This page was not found."
@@ -25,3 +28,21 @@ enable = true
 maxResults = 15
 minLength = 2
 maxLength = 42
+
+[params.social.centralized]
+twitter = ["ns6251"]
+github = ["ns6251"]
+
+[params.social.decentralized.element]
+qiita = ["https://qiita.com/ns6251", "Qiita"]
+# qiita2 = ["https://qiita.com/ns6251", "Qiita"]
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Posts"
+weight = 2
+url = "posts/"
